@@ -104,7 +104,7 @@ contract NFToken is
    */
   constructor()
   {
-    supportedInterfaces[0x80ac58cd] = true; // ERC721
+    // supportedInterfaces[0x80ac58cd] = true; // ERC721
   }
 
   /**
