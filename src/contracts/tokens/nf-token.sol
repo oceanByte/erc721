@@ -3,15 +3,14 @@ pragma solidity ^0.8.0;
 
 import "./erc721.sol";
 import "./erc721-token-receiver.sol";
-import "../utils/supports-interface.sol";
+//import "../utils/supports-interface.sol";
 import "../utils/address-utils.sol";
 
 /**
  * @dev Implementation of ERC-721 non-fungible token standard.
  */
 contract NFToken is
-  ERC721,
-  SupportsInterface
+  ERC721
 {
   using AddressUtils for address;
 
