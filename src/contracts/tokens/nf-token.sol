@@ -100,14 +100,6 @@ contract NFToken is
   }
 
   /**
-   * @dev Contract constructor.
-   */
-  constructor()
-  {
-    // supportedInterfaces[0x80ac58cd] = true; // ERC721
-  }
-
-  /**
    * @notice Throws unless `msg.sender` is the current owner, an authorized operator, or the
    * approved address for this NFT. Throws if `_from` is not the current owner. Throws if `_to` is
    * the zero address. Throws if `_tokenId` is not a valid NFT. When transfer is complete, this
